@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/business_mould_template_link_container_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/welink_uibundle_business_mould_ffffff"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/welink_uibundle_5dp"
+        android:background="@color/welink_uibundle_business_mould_divider_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/welink_uibundle_10dp"
+        android:paddingBottom="@dimen/welink_uibundle_10dp">
+
+        <TextView
+            android:id="@+id/business_mould_template_link_one_tv"
+            style="@style/WeLinkUibundleEsalesSingleLineStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/welink_uibundle_business_mould_template_three_link_one"
+            android:textColor="@color/welink_uibundle_business_mould_strong_color"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/business_mould_template_link_two_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/business_mould_template_vertical_line_one_tv"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/welink_uibundle_business_mould_divider_color"
+                android:paddingTop="3.2dp"
+                android:paddingBottom="3.2dp" />
+
+            <TextView
+                android:id="@+id/business_mould_template_link_two_tv"
+                style="@style/WeLinkUibundleEsalesSingleLineStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/welink_uibundle_business_mould_template_three_link_two"
+                android:textColor="@color/welink_uibundle_business_mould_strong_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/business_mould_template_link_three_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/business_mould_template_vertical_line_two_tv"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/welink_uibundle_business_mould_divider_color"
+                android:paddingTop="3.2dp"
+                android:paddingBottom="3.2dp" />
+
+            <TextView
+                android:id="@+id/business_mould_template_link_three_tv"
+                style="@style/WeLinkUibundleEsalesSingleLineStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/welink_uibundle_business_mould_template_three_link_three"
+                android:textColor="@color/welink_uibundle_business_mould_strong_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/business_mould_template_link_four_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/business_mould_template_vertical_line_three_tv"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/welink_uibundle_business_mould_divider_color"
+                android:paddingTop="3.2dp"
+                android:paddingBottom="3.2dp" />
+
+            <TextView
+                android:id="@+id/business_mould_template_link_four_tv"
+                style="@style/WeLinkUibundleEsalesSingleLineStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/welink_uibundle_business_mould_template_three_link_three"
+                android:textColor="@color/welink_uibundle_business_mould_strong_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

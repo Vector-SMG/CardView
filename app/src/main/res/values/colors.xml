@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--TabContainerLayout-->
+    <color name="welink_uibundle_tab_container_layout_selected_color">#F04B3D</color>
+    <color name="welink_uibundle_tab_container_layout_normal_color">#999999</color>
+
+    <color name="welink_uibundle_tab_panel_bg">#ffffff</color>
+    <color name="welink_uibundle_tab_panel_divider">#D4D6D8</color>
+
+    <color name="welink_uibundle_business_mould_ffffff">#FFFFFF</color>
+    <color name="welink_uibundle_business_mould_333333">#333333</color>
+    <color name="welink_uibundle_business_mould_999999">#999999</color>
+    <color name="welink_uibundle_business_mould_strong_color">#4A9BFA</color>
+    <color name="welink_uibundle_business_mould_f8f8f8">#F8F8F8</color>
+    <color name="welink_uibundle_business_mould_two_level_color">#888888</color>
+    <color name="welink_uibundle_business_mould_divider_color">#F5F5F5</color>
+    <color name="welink_uibundle_business_mould_color_00C696">#00C696</color>
+</resources>

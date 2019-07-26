@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Welink模板Demo</string>
+
+    <!--template one-->
+    <string name="welink_uibundle_business_mould_template_one_left_title">收入</string>
+    <string name="welink_uibundle_business_mould_template_one_left_desc_one">年度目标完成率</string>
+    <string name="welink_uibundle_business_mould_template_one_left_desc_two">年度已完成(M USD)</string>
+    <string name="welink_uibundle_business_mould_template_one_left_desc_three">同比增长(截止上月)</string>
+
+    <string name="welink_uibundle_business_mould_template_one_right_title">订货</string>
+    <string name="welink_uibundle_business_mould_template_one_right_desc_one">年度目标完成率</string>
+    <string name="welink_uibundle_business_mould_template_one_right_desc_two">年度已完成(M USD)</string>
+    <string name="welink_uibundle_business_mould_template_one_right_desc_three">同比增长</string>
+
+    <string name="welink_uibundle_business_mould_template_one_link_one">渠道订收</string>
+    <string name="welink_uibundle_business_mould_template_one_link_two">公司考察</string>
+    <string name="welink_uibundle_business_mould_template_one_link_three">数据快报</string>
+
+    <!--template two-->
+    <string name="welink_uibundle_business_mould_template_two_title_one">标题一</string>
+    <string name="welink_uibundle_business_mould_template_two_desc_one">数据解释说明一</string>
+    <string name="welink_uibundle_business_mould_template_two_title_two">标题二</string>
+    <string name="welink_uibundle_business_mould_template_two_desc_two">数据解释说明二</string>
+    <string name="welink_uibundle_business_mould_template_two_title_three">标题三</string>
+    <string name="welink_uibundle_business_mould_template_two_desc_three">数据解释说明三</string>
+
+
+    <string name="welink_uibundle_business_mould_template_two_link_one">跳转链接一</string>
+    <string name="welink_uibundle_business_mould_template_two_link_two">跳转链接二</string>
+    <string name="welink_uibundle_business_mould_template_two_link_three">跳转链接三</string>
+    <string name="welink_uibundle_business_mould_template_two_item_value">文本信息</string>
+
+
+    <!--template three-->
+    <string name="welink_uibundle_business_mould_template_three_link_one">跳转链接一</string>
+    <string name="welink_uibundle_business_mould_template_three_link_two">跳转链接二</string>
+    <string name="welink_uibundle_business_mould_template_three_link_three">跳转链接三</string>
+    <string name="welink_uibundle_business_mould_template_three_item_value">文本信息</string>
+
+    <string name="welink_uibundle_business_mould_default_text">-</string>
+</resources>

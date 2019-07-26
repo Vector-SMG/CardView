@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/welink_uibundle_business_mould_ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/welink_uibundle_2dp"
+    android:paddingRight="@dimen/welink_uibundle_2dp"
+    android:paddingTop="@dimen/welink_uibundle_14dp"
+    android:paddingBottom="@dimen/welink_uibundle_14dp">
+
+    <ImageView
+        android:id="@+id/business_mould_template_three_item_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_launcher_background" />
+
+
+    <TextView
+        android:id="@+id/business_mould_template_three_item_tv"
+        style="@style/WeLinkUibundleEsalesSingleLineStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/welink_uibundle_business_mould_template_three_item_value"
+        android:textColor="@color/welink_uibundle_business_mould_333333"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="372dp"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:background="@color/welink_uibundle_business_mould_ffffff"
+        android:paddingLeft="@dimen/welink_uibundle_10dp"
+        android:paddingRight="@dimen/welink_uibundle_10dp"
+        android:paddingTop="@dimen/welink_uibundle_10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/business_mould_template_notify_container_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/welink_uibundle_business_mould_ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/welink_uibundle_shape" />
+
+            <com.cornucopia.welinktemplateoftab.widget.recyclerview.MaxHeightRecyclerView
+                android:id="@+id/business_mould_template_notify_rv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:visibility="visible"
+                app:welink_uibundle_mhrv_maxHeight="@dimen/welink_uibundle_72dp" />
+
+        </LinearLayout>
+
+
+        <com.cornucopia.welinktemplateoftab.widget.tab.TabContainerLayout
+            android:id="@+id/business_mould_template_tcl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/welink_uibundle_business_mould_tab_panel_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:welink_uibundle_tcl_tab_mode="fixed"
+            app:welink_uibundle_tcl_tab_text_size="12sp" />
+
+        <com.cornucopia.welinktemplateoftab.widget.viewpager.SelfAdaptionHeightViewPager
+            android:id="@+id/business_mould_template_shvp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

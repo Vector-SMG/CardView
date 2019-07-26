@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="WeLinkUibundleTabContainerStyle" format="reference"></attr>
+    <!--TabContainerLayout-->
+    <declare-styleable name="WeLinkUibundleTabContainerLayout">
+        <attr name="welink_uibundle_tcl_tab_indicator_height" format="dimension" />
+        <attr name="welink_uibundle_tcl_tab_has_indicator" format="boolean" />
+        <attr name="welink_uibundle_tcl_tab_text_size" format="dimension" />
+        <attr name="welink_uibundle_tcl_tab_indicator_top" format="boolean" />
+        <attr name="welink_uibundle_tcl_tab_mode" format="enum">
+            <enum name="scrollable" value="0" />
+            <enum name="fixed" value="1" />
+        </attr>
+        <attr name="welink_uibundle_tcl_tab_space" format="dimension" />
+        <attr name="welink_uibundle_tcl_tab_default_color" format="color"/>
+        <attr name="welink_uibundle_tcl_tab_selected_color" format="color"/>
+        <attr name="welink_uibundle_tcl_tab_padding_left" format="dimension" />
+        <attr name="welink_uibundle_tcl_tab_padding_right" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WeLinkUibundleMaxHeightRecyclerView">
+        <attr name="welink_uibundle_mhrv_maxHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>

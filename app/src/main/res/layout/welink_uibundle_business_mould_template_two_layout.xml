@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/welink_uibundle_business_mould_ffffff"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/business_mould_template_two_top_view_rv"
+        android:layout_marginTop="@dimen/welink_uibundle_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/business_mould_template_two_bottom_view_rv"
+        android:layout_marginTop="@dimen/welink_uibundle_4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/welink_uibundle_business_mould_template_common_links_layout" />
+
+
+</LinearLayout>

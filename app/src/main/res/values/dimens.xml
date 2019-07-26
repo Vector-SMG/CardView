@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TabContainerLayout-->
+    <dimen name="welink_uibundle_tab_container_layout_indicator_height">2dp</dimen>
+    <dimen name="welink_uibundle_tab_container_layout_text_size">16sp</dimen>
+    <dimen name="welink_uibundle_tab_container_item_space_of_scrollable">10dp</dimen>
+    <dimen name="welink_uibundle_tab_container_layout_indicator_padding_left">10dp</dimen>
+    <dimen name="welink_uibundle_tab_container_layout_indicator_padding_right">10dp</dimen>
+
+    <dimen name="welink_uibundle_list_divider_height">1px</dimen>
+    <dimen name="welink_uibundle_list_divider_height_negative">-1px</dimen>
+
+
+    <dimen name="welink_uibundle_2dp">2dp</dimen>
+    <dimen name="welink_uibundle_4dp">4dp</dimen>
+    <dimen name="welink_uibundle_5dp">5dp</dimen>
+    <dimen name="welink_uibundle_8dp">8dp</dimen>
+    <dimen name="welink_uibundle_10dp">10dp</dimen>
+    <dimen name="welink_uibundle_14dp">14dp</dimen>
+    <dimen name="welink_uibundle_72dp">72dp</dimen>
+</resources>

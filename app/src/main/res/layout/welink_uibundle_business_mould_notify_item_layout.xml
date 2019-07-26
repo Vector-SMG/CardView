@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.cornucopia.welinktemplateoftab.widget.textview.BorderTextView
+        android:id="@+id/esales_notify_hint_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:minWidth="25dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="提示"
+        android:textColor="@color/welink_uibundle_business_mould_color_00C696"
+        android:textSize="10dp" />
+
+    <RelativeLayout
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_weight="1"
+        android:minHeight="24dp">
+
+        <TextView
+            android:id="@+id/esales_notify_value_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lineSpacingExtra="7dp"
+            android:maxLines="2"
+            android:minHeight="24dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="2.2dp"
+            android:text="Revenue,   West Euopean Regin added 326.9M USD current month. "
+            android:textColor="#333"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TabContainerLayout-->
+    <item name="welink_uibundle_tcl_tab_item_id" type="id" />
+    <item name="welink_uibundle_tcl_can_not_cache_tag" type="id" />
+
+</resources>
