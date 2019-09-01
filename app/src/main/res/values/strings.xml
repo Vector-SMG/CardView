@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Welink模板Demo</string>
+    <string name="app_name">Demo</string>
 
     <!--template one-->
     <string name="welink_uibundle_business_mould_template_one_left_title">收入</string>

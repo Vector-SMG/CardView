@@ -46,4 +46,9 @@ public class MaxHeightRecyclerView extends RecyclerView {
         }
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
+
+    public void setmMaxHeight(int mMaxHeight) {
+        this.mMaxHeight = mMaxHeight;
+        requestLayout();
+    }
 }

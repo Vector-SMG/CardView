@@ -20,7 +20,7 @@ import java.util.List;
 public abstract class RecyclerViewBaseAdapter<T> extends RecyclerView.Adapter<BaseViewHolder> {
     private final int layoutId;
     private Context context;
-    private List<T> dataList = new ArrayList<>();
+    private List<T> dataList;
 
     public void setDataList(List<T> dataList) {
         this.dataList = dataList;
@@ -38,6 +38,13 @@ public abstract class RecyclerViewBaseAdapter<T> extends RecyclerView.Adapter<Ba
         this.context = context;
         this.layoutId = layoutId;
     }
+
+    public RecyclerViewBaseAdapter(Context context, int layoutId,List<T> dataList) {
+        this.context = context;
+        this.layoutId = layoutId;
+        this.dataList=dataList;
+    }
+
 
     @Override
     public BaseViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

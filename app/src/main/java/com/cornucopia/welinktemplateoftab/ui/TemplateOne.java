@@ -1,5 +1,6 @@
 package com.cornucopia.welinktemplateoftab.ui;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
@@ -72,7 +73,7 @@ public class TemplateOne extends FrameLayout {
     /**
      * 初始化顶部视图
      */
-    private void initTopView() {
+    @SuppressLint("ClickableViewAccessibility") private void initTopView() {
         mTopRecyclerView = findViewById(R.id.business_mould_template_one_top_view_rv);
         mTopRecyclerView.setLayoutManager(new GridLayoutManager(this.context, 2));
         mTopRecyclerView.setOnTouchListener(new OnTouchListener() {
@@ -93,7 +94,7 @@ public class TemplateOne extends FrameLayout {
     /**
      * 初始化底部视图
      */
-    private void initBottomView() {
+    @SuppressLint("ClickableViewAccessibility") private void initBottomView() {
         mBottomRecyclerView = findViewById(R.id.business_mould_template_one_bottom_view_rv);
         mBottomRecyclerView.setLayoutManager(new GridLayoutManager(this.context, 2));
         mBottomRecyclerView.addItemDecoration(new GridSpacingItemDecoration(2, UiUtils.dpToPx(this.context, 4), false));

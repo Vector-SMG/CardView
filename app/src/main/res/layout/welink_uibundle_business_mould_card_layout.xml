@@ -37,9 +37,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
-                android:background="#fff"
+                android:background="@drawable/welink_uibundle_business_mould_notify_border"
                 android:visibility="visible"
-                app:welink_uibundle_mhrv_maxHeight="@dimen/welink_uibundle_72dp" />
+                />
 
         </LinearLayout>
 

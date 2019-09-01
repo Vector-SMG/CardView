@@ -65,6 +65,7 @@ public class LooperLayoutManger extends RecyclerView.LayoutManager {
                 break;
             }
         }
+        Log.e("CardView","onLayoutChildren:");
     }
 
 
